@@ -1,0 +1,35 @@
+#main{
+  max-width: 95%;
+  margin:0px auto 0px auto;
+}
+
+#resultsDiv{
+  height: 100%;
+  width:850px;
+  margin:0px 0px 10px 0px;
+  float:right;
+}
+
+#advancedOptionsDiv{
+  position:relative;
+  width:370px;
+  display:none;
+  text-align:left;
+}
+
+#errorDiv{
+  color:red;
+  display:none;
+}
+
+#textResults{
+  display:none;
+  border:solid 1px #000000;
+  text-align:center;
+  margin: 0 auto 0 auto;
+}
+
+#map{
+  display:none;
+  height:500px;
+}
