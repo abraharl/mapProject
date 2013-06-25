@@ -16,9 +16,10 @@ function getData(dataPath) {  //get the data when the search is clicked
   try{
   $.ajax({
 	url:dataPath,
-	async:'false',
-	dataType:'json',
+	async:'true',
+	dataType:'jsonp',
     success:function(data){
+	  //console.log(data);
       weather = data;
 	  populateFields();
 	  if($('#noBox').prop('checked') == false){
